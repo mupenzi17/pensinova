@@ -33,7 +33,8 @@ app.get('/users', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM users');
     res.json(result.rows)
-  } catch (err) {
+  } 
+  catch (err) {
     console.error(err);
     res.status(500).send('Server error'+ err);
   }
@@ -43,6 +44,8 @@ app.get('/auth', (req, res) => {
   // render the auth page
   res.render('authentication', { title: 'Authentication' });
 });
+
+//404 Not Found route
 app.use((req, res, next) => {
   res.status(404).render('404', { title: '404 Not Found' });
 });
