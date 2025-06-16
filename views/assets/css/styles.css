@@ -1148,8 +1148,9 @@ The Clients
   background-position: center center;
 }
 .our-staff {
-  margin-top: 130px;
-  position: relative;
+  margin-top: 330px;
+  position: relatikve;
+  padding-top: 200px;
 }
 
 .the-clients  .section-heading {
