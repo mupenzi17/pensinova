@@ -883,6 +883,16 @@ Banner Style
   background-size: cover;
   background-position: center;
 }
+#carousel-item-3 {
+  background-image: url(/assets/images/web-slide.png);
+  background-size: cover;
+  background-position: center;
+}
+#carousel-item-4 {
+  background-image: url(/assets/images/slide4-bg.png);
+  background-size: cover;
+  background-position: center;
+}
 
 .main-banner .carousel-item::before{
   content: "";
